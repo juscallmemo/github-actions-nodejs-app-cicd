@@ -11,7 +11,7 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(port, hostname, () => {
-  console.log(`Node JS Server is  running at http://${hostname}:${port}/`);
+  console.log(`노드서버는 http://${hostname}:${port}/ 에서 실행중이다.`);
 });
 
 module.exports = server;
